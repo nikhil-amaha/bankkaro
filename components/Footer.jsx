@@ -169,9 +169,8 @@ const Footer = () => {
               </FlexBox>
 
               {item.items.map((subItem, subIndex) => (
-                <FlexBox margin="0 0 16px 0">
+                <FlexBox margin="0 0 16px 0" key={subIndex}>
                   <Roboto
-                    key={subIndex}
                     color="rgba(153, 153, 153, 1)"
                     size="18px"
                     lineHeight="28px"
@@ -201,7 +200,7 @@ const Footer = () => {
                 </FlexBox>
 
                 {item.items.map((subItem, subIndex) => (
-                  <FlexBox margin="0 0 16px 0">
+                  <FlexBox margin="0 0 16px 0" key={subIndex}>
                     <Roboto
                       key={subIndex}
                       color="rgba(153, 153, 153, 1)"

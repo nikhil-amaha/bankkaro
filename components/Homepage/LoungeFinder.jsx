@@ -139,8 +139,8 @@ const LoungeFinder = () => {
         </ButtonText>
       </ButtonContainer>
       <AirportContainer>
-        {AIRPORT_DATA?.map((item) => (
-          <AirportCard>
+        {AIRPORT_DATA?.map((item, index) => (
+          <AirportCard key={index}>
             <FlexBox>
               <Icon src={item.icon} />
               <FlexBox column justify="center" margin="0 0 0 20px">
