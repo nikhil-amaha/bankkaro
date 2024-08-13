@@ -2,8 +2,9 @@
 import React from "react";
 import styled from "styled-components";
 
-import { FlexBox } from "../common/Flex";
+import { FlexBox, FlexCenter } from "../common/Flex";
 import { Circka } from "../common/Text";
+import CompareButton from "../common/Button";
 
 const Container = styled.div`
   width: 100%;
@@ -159,6 +160,9 @@ const CompareCards = () => {
             Compare Cards
           </ButtonText>
         </ButtonContainer>
+        <FlexCenter>
+          <CompareButton />
+        </FlexCenter>
       </TextContainer>
     </Container>
   );

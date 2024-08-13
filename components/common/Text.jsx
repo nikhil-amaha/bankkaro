@@ -46,6 +46,10 @@ const Roboto = styled(Text)`
   font-family: "Roboto Slab", sans-serif;
 `;
 
+const DM_SANS_SERIF = styled(Text)`
+  font-family: "DM Serif Text", sans-serif;
+`;
+
 const Roboto_28 = styled(Text)`
   font-size: 1.75rem;
   font-family: "Roboto Slab", sans-serif;
@@ -109,6 +113,7 @@ const Poppins_24 = styled(Poppins)`
 export {
   Roboto,
   Roboto_28,
+  DM_SANS_SERIF,
   Cirka_20,
   Circka_36,
   Circka_44,

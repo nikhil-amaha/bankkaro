@@ -17,6 +17,7 @@ const NavbarContainer = styled.nav`
   top: 0;
   z-index: 10000;
   width: 100%;
+  max-width: 100vw;
   background: rgba(0, 0, 0, 0.3);
   border: 1.33px solid;
   border-image: linear-gradient(

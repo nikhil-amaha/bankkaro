@@ -8,10 +8,12 @@ import CompareCards from "./CompareCards";
 import LoungeFinder from "./LoungeFinder";
 import Review from "./Review";
 import Footer from "../Footer";
+import Navbar from "../Navbar";
 
 const Homepage = () => {
   return (
     <>
+      <Navbar />
       <Banner />
       <Benefits />
       <Features />
@@ -19,6 +21,7 @@ const Homepage = () => {
       <CompareCards />
       <LoungeFinder />
       <Review />
+      <Footer />
     </>
   );
 };
